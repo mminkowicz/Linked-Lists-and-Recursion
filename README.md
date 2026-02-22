@@ -83,6 +83,39 @@ By focusing on **linked lists** (for dynamic insertion/deletion) and **recursion
   - Remove any debugging prints or stale branches.  
   - Ensure your `.gitignore` is updated to exclude unnecessary files.
 
+---
+
+## How to Run
+
+### Run the demo
+
+```bash
+python3 main.py
+```
+
+### Run the tests
+
+```bash
+python3 -m pytest tests/ -v
+```
+
+### Expected output (main.py)
+
+```
+Linked List:
+303 -> 202 -> 101 -> 404 -> None
+
+Sum of all IDs: 1010
+
+Search for 202: Found
+Search for 999: Not Found
+
+Reversed Linked List:
+404 -> 101 -> 202 -> 303 -> None
+```
+
+---
+
 ## Submission
 Once the lab is complete, all tests are passing, and you've pushed the completed code to 
 your forked repo on GitHub, submit your GitHub repo through Canvas using CodeGrade.
